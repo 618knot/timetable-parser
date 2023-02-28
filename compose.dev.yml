@@ -1,0 +1,13 @@
+version: '3'
+services:
+  pdf-parser:
+    container_name: pdf-parser
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    tty: true
+    volumes:
+      - ./app:/app
+    ports:
+      - "8000:8000"
+    command: uvicorn main:app --reload --host 0.0.0.0 --port 8000
