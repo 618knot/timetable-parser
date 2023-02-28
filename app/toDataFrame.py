@@ -1,6 +1,5 @@
 import pandas as pd
 import glob
-import pathlib as Path
 import tabula
 
 def toDataFrame():

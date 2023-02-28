@@ -1,5 +1,5 @@
 from newJSON import newJSON
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 
 app = FastAPI()
 
