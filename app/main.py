@@ -1,4 +1,4 @@
-from newJSON import newJSON
+from app.newJSON import newJSON
 from fastapi import FastAPI
 
 app = FastAPI()
