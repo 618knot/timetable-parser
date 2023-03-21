@@ -4,8 +4,8 @@ import sys
 # m_path = path.join(path.dirname(__file__),"under")
 # sys.path.append('')
 
-import pdfManager
-import jsonManager
+import app.pdfManager as pdfManager
+import app.jsonManager as jsonManager
 
 app = FastAPI()
 pdfM = pdfManager.PdfManager()
