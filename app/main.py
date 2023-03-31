@@ -1,9 +1,5 @@
 from fastapi import FastAPI
 import sys
-# from os import path
-# m_path = path.join(path.dirname(__file__),"under")
-# sys.path.append('')
-
 import app.pdfManager as pdfManager
 import app.jsonManager as jsonManager
 
